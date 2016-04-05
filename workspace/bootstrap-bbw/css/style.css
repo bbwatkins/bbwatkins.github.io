@@ -1,0 +1,10 @@
+
+    #jumbo1
+    {background-image: url("../img/aurora-borialis.jpg");
+    background-size: cover;
+        ;
+}
+
+#jumbo1 >h1, h2, h4 
+{color: #ffff00;}
+

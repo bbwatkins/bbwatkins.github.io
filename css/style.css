@@ -5,6 +5,43 @@
         ;
 }
 
-#jumbo1 >h1, h2, h4 
+#jumbo1 >h1, h2
 {color: #ffff00;}
 
+
+.my-btn {
+ background: #535652;
+ border-color: #26221f;
+ color: #f4f3f0;
+}
+
+.my-btn:hover {
+ border-color: #C0C0C0;
+ background-color: #828982;
+}
+
+.img-responsive {
+ display: block;
+ /*poition: absolute;*/
+}
+
+.thumbnail {
+ max-width: 100%;
+ max-height: 100%;
+ Padding: 10pt;
+ display: inline-block;
+}
+
+/*.modal-content {
+ padding-top: 10px;
+ padding-right: 15px;
+ position: relative;
+}*/
+
+.modal-bali {
+  max-height: calc(100% - 100px);
+  position: fixed;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+}

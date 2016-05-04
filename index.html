@@ -1,95 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
 
-    <!-- basically sets your browser to certian defaults -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+        <!-- basically sets your browser to certian defaults -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Bootstrap -->
-    <title>Bootstrap 101 Template</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.css/bootstrap-theme.min.css">
+        <!-- Bootstrap -->
+        <title>Bootstrap 101 Template</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5.css/bootstrap-theme.min.css">
 
-</head>
+    </head>
 
-<body>
-
-
+    <body>
 
 
 
-    <div class="container-fluid">
 
 
-        <nav class="navbar navbar-default ">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Barry's Web Site</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button>
+        <div class="container-fluid">
+
+
+            <nav class="navbar navbar-default ">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Barry's Web Site</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="htmlstuff/about.html">About</a></li>
+                        <li><a href="htmlstuff/gallery.html">Gallery</a></li>
+                        <li><a href="htmlstuff/modals.html">Modals</a></li>
+                        <li><a href="htmlstuff/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- navebar collapse closing div -->
+
+            </nav>
+            <!--  closing nav class navbar navbar-default -->
+
+        </div>
+        <!-- closing container-fluid div -->
+
+
+        <!-- <p> <a href="didyouknow.html" class="btn btn-default">View details &raquo;</a></p> -->
+
+
+
+
+        <div class="container-fluid">
+            <br>
+            <div class="jumbotron" id="jumbo1">
+                <h1>Barry's Hometown<br>New York, NY... </h1>
+                <br>
+                <h2>(Home of the Jumbotron...)</h2>
+                <br>
+                <h4><span style = "color: #ffff00">...index.html</span></h4>
+                <!--  Hey Barry --this was an easy fix! We just needed the index.html file to be the only html file in the first level of the folder structure. I moved the other html pages into a separate folder, then used the three git commands we covered in class (add, commit, push) to copy the new folder structure to github and voila! -Belem -->
+                <a href="index.html" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-home"></span> ... Home Button ... &raquo; </a>
+                <h4><span style="color: #ffff00">Example...<br>Resize the browser window to see the effects...</span></h4>
             </div>
 
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <!-- closing div class="container-fluid" -->
+        </div>
 
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="htmlstuff/about.html">About</a></li>
-                    <li><a href="htmlstuff/gallery.html">Gallery</a></li>
-                    <li><a href="htmlstuff/modals.html">Modals</a></li>
-                    <li><a href="htmlstuff/contact.html">Contact Us</a></li>
-                </ul>
+
+        <div class="container-fluid">
+            <div id="toggle">
+                <img class="img-thumbnail" src="img/mn_traffic-light.jpg">
+                <h5>JavaScript - Click The Traffic Light - See it Fade Out and Back In... </h5>
             </div>
-            <!-- navebar collapse closing div -->
 
-        </nav>
-        <!--  closing nav class navbar navbar-default -->
-
-    </div>
-    <!-- closing container-fluid div -->
-
-
-    <!-- <p> <a href="didyouknow.html" class="btn btn-default">View details &raquo;</a></p> -->
-
-
-
-
-    <div class="container-fluid">
-        <br>
-        <div class="jumbotron" id="jumbo1">
-            <h1>Barry's Hometown<br>New York, NY... </h1>
-            <br>
-            <h2>(Home of the Jumbotron...)</h2>
-            <br>
-            <h4><span style = "color: #ffff00">...index.html</span></h4>
-            <!--  Hey Barry --this was an easy fix! We just needed the index.html file to be the only html file in the first level of the folder structure. I moved the other html pages into a separate folder, then used the three git commands we covered in class (add, commit, push) to copy the new folder structure to github and voila! -Belem -->
-            <a href="index.html" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-home"></span> ... Home Button ... &raquo; </a>
-            <h4><span style="color: #ffff00">Example...<br>Resize the browser window to see the effects...</span></h4>
-        </div>
-   
-           <!-- closing div class="container-fluid" -->
-    </div>
-    
-    
-    <div class="container-fluid">
-        <div id="toggle">
-            <img class="img-thumbnail" src="img/mn_traffic-light.jpg">
-            <h5>JavaScript - Click The Traffic Light - See it Fade Out and Back In... </h5>
+            <!-- closing div class="container-fluid" -->
         </div>
 
-        <!-- closing div class="container-fluid" -->
-    </div>
 
-
-    <!-- put AccuWeather code below here ***
+        <!-- put AccuWeather code below here ***
     
     <div id="weather">
         <a href="http://www.accuweather.com/en/us/new-york-ny/10007/weather-forecast/349727" class="aw-widget-legal">
@@ -107,206 +107,208 @@ By accessing and/or using this code snippet, you agree to AccuWeather’s terms 
 
 
 
-    <div class="container-fluid">
-        <div class="page-header">
-            <h1>A Jumbotron Is...<br></h1>
-            <h3>A big box page header for calling extra attention to some special content or information...</h3>
+        <div class="container-fluid">
+            <div class="page-header">
+                <h1>A Jumbotron Is...<br></h1>
+                <h3>A big box page header for calling extra attention to some special content or information...</h3>
+            </div>
+
+
+            <h3>Hello, world!</h3>
+            <br>
+            <h1>My First Bootstrap Page...</h1>
+
+            <div class="row">
+
+                <div class="col-xs-6 col-sm-3" style="background-color:lavender;">
+                    Column 1
+                    <br> Hey New York...
+                    <br>...
+                    <br>Here is some <b>Big Apple Humor</b> comming at you...LOL
+
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">
+                    Column 2
+                    <br>Hey New York...
+                    <br>What does an American soccer fan do when his team wins the world cup? ... Gets up and turns off the PlayStation...LOL
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">
+                    Column 3
+                    <br>Hey New York...
+                    <br>...
+                    <br>What do you call a dinosaur with an extensive vocablulary ? ... A Thesaurus...LOL"
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">
+                    Column 4
+                    <br>Hey New York...
+                    <br>Did you hear about the Chamelion who could not change color? ... A case of a reptile disfunction...LOL
+                </div>
+
+                <!-- Add clearfix for only the required viewport -->
+                <div class="clearfix visible-xs"></div>
+
+                <!-- closing div for div class row -->
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-xs-6 col-sm-3" style="background-color:#fff0f5;">
+                    Column 5
+                    <br> Hey New York...
+                    <br>If Con is the opposite of Pro...
+                    <br>Is Congress the opposite of Progress?...LOL
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:#e0ffff;">
+                    Column 6
+                    <br> Hey New York...
+                    <br>Why do NY Seagulls live by the sea?...
+                    <br>Because if they lived by the bay... They would be NY Bagels...LOL
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:#dcdcdc;">
+                    Column 7
+                    <br> Hey New York...
+                    <br>Husband: Call an ambulance fast...I think I'm having a heart attack...
+                    <br>Wife: (Grabs his cell phone) Quick... Tell me the passcode...
+                    <br>Husband: It's OK... I'm feeling better now... LOL
+                </div>
+
+                <div class="col-xs-6 col-sm-3" style="background-color:#e6e6fa;">
+                    Column 8
+                    <br> Hey New York...
+                    <br>A recent study found that women who carry a little extra weight live longer than the men who mention it...LOL
+                </div>
+
+            </div>
+            <!-- closing container div class row -->
         </div>
-
-
-        <h3>Hello, world!</h3>
-        <br>
-        <h1>My First Bootstrap Page...</h1>
-
-        <div class="row">
-
-            <div class="col-xs-6 col-sm-3" style="background-color:lavender;">
-                Column 1
-                <br> Hey New York...
-                <br>...
-                <br>Here is some <b>Big Apple Humor</b> comming at you...LOL
-
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">
-                Column 2
-                <br>Hey New York...
-                <br>What does an American soccer fan do when his team wins the world cup? ... Gets up and turns off the PlayStation...LOL
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">
-                Column 3
-                <br>Hey New York...
-                <br>What do you call a dinosaur with an extensive vocablulary ? ... A Thesaurus...LOL"
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">
-                Column 4
-                <br>Hey New York...
-                <br>Did you hear about the Chamelion who could not change color? ... A case of a reptile disfunction...LOL
-            </div>
-
-            <!-- Add clearfix for only the required viewport -->
-            <div class="clearfix visible-xs"></div>
-
-            <!-- closing div for div class row -->
-        </div>
-
-
-        <div class="row">
-
-            <div class="col-xs-6 col-sm-3" style="background-color:#fff0f5;">
-                Column 5
-                <br> Hey New York...
-                <br>If Con is the opposite of Pro...
-                <br>Is Congress the opposite of Progress?...LOL
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:#e0ffff;">
-                Column 6
-                <br> Hey New York...
-                <br>Why do NY Seagulls live by the sea?...
-                <br>Because if they lived by the bay... They would be NY Bagels...LOL
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:#dcdcdc;">
-                Column 7
-                <br> Hey New York...
-                <br>Husband: Call an ambulance fast...I think I'm having a heart attack...
-                <br>Wife: (Grabs his cell phone) Quick... Tell me the passcode...
-                <br>Husband: It's OK... I'm feeling better now... LOL
-            </div>
-
-            <div class="col-xs-6 col-sm-3" style="background-color:#e6e6fa;">
-                Column 8
-                <br> Hey New York...
-                <br>A recent study found that women who carry a little extra weight live longer than the men who mention it...LOL
-            </div>
-
-        </div>
-        <!-- closing container div class row -->
-    </div>
-    <!-- closing container-fluid div -->
+        <!-- closing container-fluid div -->
 
 
 
 
-    <div class="container-fluid">
+        <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-6">
+                        <p>
+                            <br>Nested Col 1of2...
+                            <br>Empire State Building
+                            <br><img class="img-thumbnail" src="img/mn_empire_state_building2.jpg"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <br>Nested Col 2of2...
+                            <br>One World Trade Center
+                            <br><img class="img-thumbnail" src="img/mn_one-world-trade-center.jpg"></p>
+                    </div>
+                </div>
+                <!--closing div for first col md-6 -->
+
                 <div class="col-md-6">
                     <p>
-                        <br>Nested Col 1of2...
-                        <br>Empire State Building
-                        <br><img class="img-thumbnail" src="img/mn_empire_state_building2.jpg"></p>
+                        <br>New York Skyline at night...
+                        <br>
+                        <br>
+                        <img class="img-thumbnail" src="img/mn_new-york-skyline-night.jpg"></p>
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        <br>Nested Col 2of2...
-                        <br>One World Trade Center
-                        <br><img class="img-thumbnail" src="img/mn_one-world-trade-center.jpg"></p>
-                </div>
+                <!-- closing div second col-md-6 -->
             </div>
-            <!--closing div for first col md-6 -->
+            <!-- closing div for row -->
 
-            <div class="col-md-6">
-                <p>
-                    <br>New York Skyline at night...
-                    <br>
-                    <br>
-                    <img class="img-thumbnail" src="img/mn_new-york-skyline-night.jpg"></p>
-            </div>
-            <!-- closing div second col-md-6 -->
         </div>
-        <!-- closing div for row -->
-
-    </div>
-    <!-- closing container-fluid div -->
+        <!-- closing container-fluid div -->
 
 
-    <div class="container-fluid">
-        <br>
+        <div class="container-fluid">
+            <br>
 
-        <!-- <img class="img-thumbnail" src="http://wednesday.startcomputing.org/manatee3.jpg">-->
-        <br>
-        <br>
-        <div>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#firsttab" data-toggle="tab">The Bronx Tab</a></li>
-                <li><a href="#secondtab" data-toggle="tab">Brooklyn Tab</a></li>
-                <li><a href="#thirdtab" data-toggle="tab">Manhattan Tab</a></li>
-                <li><a href="#fourthtab" data-toggle="tab">Queens Tab</a></li>
-                <li><a href="#fifthtab" data-toggle="tab">Staten Island Tab</a></li>
-            </ul>
+            <!-- <img class="img-thumbnail" src="http://wednesday.startcomputing.org/manatee3.jpg">-->
+            <br>
+            <br>
+            <div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#firsttab" data-toggle="tab">The Bronx Tab</a></li>
+                    <li><a href="#secondtab" data-toggle="tab">Brooklyn Tab</a></li>
+                    <li><a href="#thirdtab" data-toggle="tab">Manhattan Tab</a></li>
+                    <li><a href="#fourthtab" data-toggle="tab">Queens Tab</a></li>
+                    <li><a href="#fifthtab" data-toggle="tab">Staten Island Tab</a></li>
+                </ul>
 
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="firsttab">
-                    <h3>The Bronx - The Zoo and The Botanical Gardens are here...</h3>
-                    <p>Populaton 1.419 Million - cite google.com</p>
-                </div>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="firsttab">
+                        <h3>The Bronx - The Zoo and The Botanical Gardens are here...</h3>
+                        <p>Populaton 1.419 Million - cite google.com</p>
+                    </div>
 
-                <div class="tab-pane" id="secondtab">
-                    <h3>Brooklyn - The Academy of Music and the most people reside here...</h3>
-                    <p>Population 2.592 Million - cite google.com</p>
-                </div>
+                    <div class="tab-pane" id="secondtab">
+                        <h3>Brooklyn - The Academy of Music and the most people reside here...</h3>
+                        <p>Population 2.592 Million - cite google.com</p>
+                    </div>
 
-                <div class="tab-pane" id="thirdtab">
-                    <h3>Manhattan - Alot of tall buildings and United Nations are here...</h3>
-                    <p>Population 1.626 Million - cite google.com</p>
-                </div>
+                    <div class="tab-pane" id="thirdtab">
+                        <h3>Manhattan - Alot of tall buildings and United Nations are here...</h3>
+                        <p>Population 1.626 Million - cite google.com</p>
+                    </div>
 
-                <div class="tab-pane" id="fourthtab">
-                    <h3>Queens - The US Tennis Open and the airports are here...</h3>
-                    <p>Population 2.296 Million - cite google.com</p>
-                </div>
+                    <div class="tab-pane" id="fourthtab">
+                        <h3>Queens - The US Tennis Open and the airports are here...</h3>
+                        <p>Population 2.296 Million - cite google.com</p>
+                    </div>
 
-                <div class="tab-pane" id="fifthtab">
-                    <h3>Staten Island - The ferry and the NY Marathon start here...</h3>
-                    <p>Population 472,621 - cite google.com</p>
-                </div>
+                    <div class="tab-pane" id="fifthtab">
+                        <h3>Staten Island - The ferry and the NY Marathon start here...</h3>
+                        <p>Population 472,621 - cite google.com</p>
+                    </div>
 
 
-            </div>
-        </div>
-
-        <br>
-        <br>
-        <div>
-            <!-- Nav tabs -->
-
-            <ul class="nav nav-pills nav-justified">
-                <li class="active"><a href="#firsttab2" data-toggle="tab">First New York Tab</a></li>
-                <li><a href="#secondtab2" data-toggle="tab">Second New York Tab</a></li>
-
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="firsttab2">
-                    <h3>New York is the Financial Services and Media Capital of the United States...</h3>
-                    <p>Population 8.491 million - cite google.com
-                        <br>
-                        <br>
-                    </p>
-                </div>
-                <div class="tab-pane" id="secondtab2">
-                    <h3>The Tri State Metropolitan Region (NY-NJ-CT) is one of the largest on earth... </h3>
-                    <p>Population 20.2 million - cite google.com
-                        <br>
-                        <br>
-                    </p>
                 </div>
             </div>
+
+            <br>
+            <br>
+            <div>
+                <!-- Nav tabs -->
+
+                <ul class="nav nav-pills nav-justified">
+                    <li class="active"><a href="#firsttab2" data-toggle="tab">First New York Tab</a></li>
+                    <li><a href="#secondtab2" data-toggle="tab">Second New York Tab</a></li>
+
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="firsttab2">
+                        <h3>New York is the Financial Services and Media Capital of the United States...</h3>
+                        <p>Population 8.491 million - cite google.com
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="secondtab2">
+                        <h3>The Tri State Metropolitan Region (NY-NJ-CT) is one of the largest on earth... </h3>
+                        <p>Population 20.2 million - cite google.com
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; - Tech Connect Class - Phase 2 - Independent Project - Pictures from pixabay.com - Public Domain</p>
+            </footer>
         </div>
-
-        <hr>
-
-        <footer>
-            <p>&copy; New York Public Library - Tech Connect Class - Phase 2 - Independent Project.</p>
-        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -318,7 +320,7 @@ By accessing and/or using this code snippet, you agree to AccuWeather’s terms 
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="js/boom.js"></script>
 
-</body>
+    </body>
 
 
-</html>
+    </html>

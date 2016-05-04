@@ -60,11 +60,16 @@
                 <a href="../index.html" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-home"></span> ... Home Button ... &raquo; </a>
                 <h4><span style="color: #ffff00">Example...<br>Resize the browser window to see the effects...</span></h4>
             </div>
-            <div class="panel">
-                <img class="img-thumbnail" src="../img/mn_traffic-light.jpg">
-            </div>
 
-            <!-- <div class="container-fluid">
+            <div id="toggle">
+                <img class="img-thumbnail" src="../img/mn_traffic-light.jpg">
+                <h5>JavaScript - Click The Traffic Light - See it Fade Out and Back In... </h5>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="container-fluid">
 
 
         <nav class="navbar navbar-default ">
@@ -86,146 +91,156 @@
             <!-- navebar collapse closing div -->
 
 
-            <!-- this is an example of modals - a pop up menu -->
+        <!-- this is an example of modals - a pop up menu -->
 
-            <div class="container-fluid">
-                <div class="page-header">
-                    <h1>Modals Are...<br></h1>
-                    <h3>Dialog boxes / pop up windows that are displayed on top of the current page...</h3>
+        <div class="container-fluid">
+            <div class="page-header">
+                <h1>Modals Are...<br></h1>
+                <h3>Dialog boxes / pop up windows that are displayed on top of the current page...</h3>
+            </div>
+
+            <!-- simple modal example -->
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <!-- image as a trigger -->
+                    <a href="#myModalOne" data-toggle="modal">
+                        <img class="img-thumbnail" src="../img/mn_new_york_subway.jpg" class="img-responsive center-block">
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <!-- image as a trigger -->
+                    <a href="#myModalTwo" data-toggle="modal">
+                        <img class="img-thumbnail" src="../img/qn_unisphere_corona_queens.jpg" class="img-responsive center-block">
+                    </a>
                 </div>
 
-                <!-- simple modal example -->
+            </div>
 
 
-                <div class="row">
-                    <div class="col-sm-6">
-                        <!-- image as a trigger -->
-                        <a href="#myModalOne" data-toggle="modal">
-                            <img class="img-thumbnail" src="../img/mn_new_york_subway.jpg" class="img-responsive center-block">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <!-- image as a trigger -->
-                        <a href="#myModalTwo" data-toggle="modal">
-                            <img class="img-thumbnail" src="../img/qn_unisphere_corona_queens.jpg" class="img-responsive center-block">
-                        </a>
-                    </div>
+            <!-- simple modal -->
+            <div class="modal fade" id="myModalOne" role="dialog">
+                <div class="modal-dialog">
+                    <img class="img-thumbnail" src="../img/mn_new_york_subway.jpg" width="100%" height="100%">
+                    <h2>40% of the NYC Subway is above ground<br>'1' Train - From The Bronx to Manhattan...<br></h2>
+                </div>
+            </div>
 
+            <div class="modal fade" id="myModalTwo" role="dialog">
+                <div class="modal-dialog">
+                    <img class="img-thumbnail" src="../img/qn_unisphere_corona_queens.jpg" width="100%" height="100%">
+                    <h2>The Unisphere - Carona, Queens, NY<br>Circa 1964 World's Fair...<br></h2>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- LESS simple modal example -->
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <!-- image as a trigger -->
+                    <a href="#myModalThree" data-toggle="modal">
+                        <img class="img-thumbnail" src="../img/si_verrazano_bridge.jpg" class="img-responsive center-block img-thumbnail">
+                    </a>
                 </div>
 
-
-                <!-- simple modal -->
-                <div class="modal fade" id="myModalOne" role="dialog">
-                      <div class="modal-dialog">
-                        <img class="img-thumbnail" src="../img/mn_new_york_subway.jpg" width="100%" height="100%">
-                        <h2>40% of the NYC Subway is above ground<br>'1' Train - From The Bronx to Manhattan...<br></h2>
-                       </div>
-                </div>      
-                        
-                   <div class="modal fade" id="myModalTwo" role="dialog">
-                    <div class="modal-dialog">
-                        <img class="img-thumbnail" src="../img/qn_unisphere_corona_queens.jpg" width="100%" height="100%">
-                        <h2>The Unisphere - Carona, Queens, NY<br>Circa 1964 World's Fair...<br></h2>
-                        </div>
+                <div class="col-sm-6">
+                    <!-- image as a trigger -->
+                    <a href="#myModalFour" data-toggle="modal">
+                        <img class="img-thumbnail" src="../img/bk_queen_mary2_bkn_marine_term.jpg" class="img-responsive center-block img-thumbnail">
+                    </a>
                 </div>
 
-                <hr>
-
-                <!-- LESS simple modal example -->
-                <div class="row">
-                    
-                    <div class="col-sm-6">
-                        <!-- image as a trigger -->
-                        <a href="#myModalThree" data-toggle="modal">
-                            <img class="img-thumbnail" src="../img/si_verrazano_bridge.jpg" class="img-responsive center-block img-thumbnail">
-                        </a>
-                    </div>
-                    
-                    <div class="col-sm-6">
-                        <!-- image as a trigger -->
-                        <a href="#myModalFour" data-toggle="modal">
-                            <img class="img-thumbnail" src="../img/bk_queen_mary2_bkn_marine_term.jpg" class="img-responsive center-block img-thumbnail">
-                        </a>
-                    </div>
-
-                </div>
+            </div>
 
 
-                <!-- less simple modal 3-->
-                <div class="modal fade" id="myModalThree" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title">
+            <!-- less simple modal 3-->
+            <div class="modal fade" id="myModalThree" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">
                                 Verrazano Narrows Bridge - 13,700' More than 2.5 Miles - Longest Twin Span Bridge on the continent !!!
                                 </h4>
-                            </div>
-                            <!-- /modal-header -->
-                            <div class="modal-body">
-                                <img src="../img/si_verrazano_bridge.jpg" width="100%" height="100%">
-                            </div>
-                            <!-- /modal-body -->
-                            <div class="modal-footer">
-                                <h5>Longer than the Golden Gate Bridge !!!</h5>
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                            <!-- /modal-footer -->
                         </div>
-                        <!-- /modal-content -->
+                        <!-- /modal-header -->
+                        <div class="modal-body">
+                            <img src="../img/si_verrazano_bridge.jpg" width="100%" height="100%">
+                        </div>
+                        <!-- /modal-body -->
+                        <div class="modal-footer">
+                            <h5>Longer than the Golden Gate Bridge !!!</h5>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                        <!-- /modal-footer -->
                     </div>
-                    <!-- /modal-dialog -->
+                    <!-- /modal-content -->
                 </div>
-                <!-- /modal -->
+                <!-- /modal-dialog -->
+            </div>
+            <!-- /modal -->
 
-                <!-- less simple modal 4-->
-                <div class="modal fade" id="myModalFour" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title">
+            <!-- less simple modal 4-->
+            <div class="modal fade" id="myModalFour" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">
                                 Queen Mary 2 - World's Largest Cruise Ship - docks in Brooklyn because Manhattan waters are to shallow
                                 </h4>
-                            </div>
-                            <!-- /modal-header -->
-                            <div class="modal-body">
-                                <img src="../img/bk_queen_mary2_bkn_marine_term.jpg" width="100%" height="100%">
-                            </div>
-                            <!-- /modal-body -->
-                            <div class="modal-footer">
-                                <h5>Brooklyn in the house !!!</h5>
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                            <!-- /modal-footer -->
                         </div>
-                        <!-- /modal-content -->
+                        <!-- /modal-header -->
+                        <div class="modal-body">
+                            <img src="../img/bk_queen_mary2_bkn_marine_term.jpg" width="100%" height="100%">
+                        </div>
+                        <!-- /modal-body -->
+                        <div class="modal-footer">
+                            <h5>Brooklyn in the house !!!</h5>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                        <!-- /modal-footer -->
                     </div>
-                    <!-- /modal-dialog -->
+                    <!-- /modal-content -->
                 </div>
-                <!-- /modal -->
-
-                <hr>
-
-                <footer>
-                    <p>&copy; New York Public Library - Tech Connect Class - Phase 2 - Independent Project.</p>
-                </footer>
+                <!-- /modal-dialog -->
             </div>
-            <!-- /container -->
+            <!-- /modal -->
+
+            <hr>
+
+            <footer>
+                <p>&copy; New York Public Library - Tech Connect Class - Phase 2 - Independent Project.</p>
+            </footer>
+        </div>
+        <!-- /container -->
 
 
-            <!-- Bootstrap core JavaScript
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="../js/boom.js"></script>
+
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Placed at the end of the document so the pages load faster -->
+       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+       <!-- <script src="../js/bootstrap.min.js"></script> -->
+       <!-- <script src="../js/jquery.js"></script> -->
+        <!-- <script src="../js/boom.js"></script> -->
 
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/jquery.js"></script>
 </body>
 
 
